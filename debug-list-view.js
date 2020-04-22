@@ -3,13 +3,13 @@ import {
     View,
     Text,
     StyleSheet,
-    ListView,
     Animated,
     TouchableOpacity,
     PixelRatio,
     NativeModules,
     LayoutAnimation,
 } from "react-native";
+import ListView from "deprecated-react-native-listview";
 import moment from "moment";
 import debugService from "./debug-service";
 import InvertibleScrollView from "react-native-invertible-scroll-view";
